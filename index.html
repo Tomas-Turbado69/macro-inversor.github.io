@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macro Inversor | Análisis Macroeconómico, Señales y Copy Trading</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #090d16;
+            color: #f8fafc;
+        }
+        .font-mono-num {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #34d399 0%, #38bdf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-emerald-500/30 selection:text-emerald-200">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-40 top-0 glass-card border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2 font-bold text-lg tracking-tight">
+                <span class="w-3 h-3 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span>MACRO<span class="text-emerald-400">INVERSOR</span></span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm text-slate-300">
+                <a href="#tesis" class="hover:text-white transition">Tesis & Enfoque</a>
+                <a href="#servicios" class="hover:text-white transition">Servicios & Precios</a>
+                <a href="#faq" class="hover:text-white transition">FAQ</a>
+            </div>
+            <a href="https://wa.me/5492396601219?text=Hola!%20Vengo%20de%20tu%20web%20Macro%20Inversor%20y%20tengo%20una%20consulta." 
+               target="_blank" 
+               class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold text-xs sm:text-sm px-4 py-2 rounded-lg transition shadow-lg shadow-emerald-500/20">
+                WhatsApp Directo
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 px-4 sm:px-6 relative overflow-hidden">
+        <div class="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-emerald-500/10 blur-[120px] rounded-full pointer-events-none"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-xs font-mono-num text-emerald-400 mb-6">
+                <span>GESTIÓN CUANTITATIVA Y FLUJOS DE LIQUIDEZ</span>
+                <span>•</span>
+                <span>MERCADOS GLOBALES & CRIPTO</span>
+            </div>
+            
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                Operá con datos duros, <br>
+                no por <span class="gradient-text">humo de redes sociales</span>.
+            </h1>
+            
+            <p class="text-slate-400 text-base sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+                Análisis macroeconómico institucional, métricas on-chain y sistemas automatizados de inversión. Sin señales mágicas, con pura estructura de mercado.
+            </p>
+
+            <!-- Botones de Acción (WhatsApp + Gmail) -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://wa.me/5492396601219?text=Hola!%20Vengo%20de%20tu%20web%20Macro%20Inversor%20y%20quiero%20chatear." 
+                   target="_blank"
+                   class="w-full sm:w-auto flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-7 py-3.5 rounded-xl transition transform hover:-translate-y-0.5 shadow-xl shadow-emerald-500/20">
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>
+                    Contactar al WhatsApp
+                </a>
+
+                <a href="mailto:gmailfalopa@gmail.com?subject=Consulta%20Comercial%20/%20Sponsors&body=Hola,%20te%20escribo%20desde%20la%20web%20Macro%20Inversor..." 
+                   class="w-full sm:w-auto flex items-center justify-center gap-2 glass-card hover:bg-slate-800 text-white font-semibold px-7 py-3.5 rounded-xl transition border border-slate-700">
+                    <svg class="w-5 h-5 text-sky-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                    Enviar Correo (Gmail)
+                </a>
+            </div>
+        </div>
+
+        <!-- Métricas / Social Proof -->
+        <div class="max-w-4xl mx-auto mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="glass-card p-5 rounded-2xl text-center">
+                <div class="text-2xl sm:text-3xl font-bold font-mono-num text-white">+120K</div>
+                <div class="text-xs text-slate-400 mt-1 uppercase tracking-wider">Comunidad</div>
+            </div>
+            <div class="glass-card p-5 rounded-2xl text-center">
+                <div class="text-2xl sm:text-3xl font-bold font-mono-num text-emerald-400">98%</div>
+                <div class="text-xs text-slate-400 mt-1 uppercase tracking-wider">Retención VIP</div>
+            </div>
+            <div class="glass-card p-5 rounded-2xl text-center">
+                <div class="text-2xl sm:text-3xl font-bold font-mono-num text-white">24/7</div>
+                <div class="text-xs text-slate-400 mt-1 uppercase tracking-wider">Monitoreo On-Chain</div>
+            </div>
+            <div class="glass-card p-5 rounded-2xl text-center">
+                <div class="text-2xl sm:text-3xl font-bold font-mono-num text-sky-400">0%</div>
+                <div class="text-xs text-slate-400 mt-1 uppercase tracking-wider">Vendehumo</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Tesis -->
+    <section id="tesis" class="py-20 px-4 sm:px-6 border-t border-slate-800/60 bg-slate-950/40">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <h2 class="text-3xl font-bold mb-4">¿Por qué este enfoque?</h2>
+                <p class="text-slate-400">El mercado no se mueve por líneas mágicas en un gráfico de 5 minutos, sino por grandes flujos de capital macroeconómico.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="glass-card p-7 rounded-2xl hover:border-emerald-500/40 transition">
+                    <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-mono-num font-bold mb-5">01</div>
+                    <h3 class="text-xl font-bold mb-3">Liquidez Global</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Seguimiento exhaustivo de balances de bancos centrales, tipos de interés reales y expansión de masa monetaria (M2).</p>
+                </div>
+
+                <div class="glass-card p-7 rounded-2xl hover:border-sky-500/40 transition">
+                    <div class="w-10 h-10 rounded-lg bg-sky-500/10 text-sky-400 flex items-center justify-center font-mono-num font-bold mb-5">02</div>
+                    <h3 class="text-xl font-bold mb-3">Datos On-Chain</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Análisis de flujos de exchanges, comportamiento de ballenas y zonas reales de acumulación estadística en criptoactivos.</p>
+                </div>
+
+                <div class="glass-card p-7 rounded-2xl hover:border-purple-500/40 transition">
+                    <div class="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center font-mono-num font-bold mb-5">03</div>
+                    <h3 class="text-xl font-bold mb-3">Gestión de Riesgo</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Defensa estricta del capital, apalancamiento controlado y diversificación entre renta variable y activos duros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios con las 3 opciones requeridas -->
+    <section id="servicios" class="py-20 px-4 sm:px-6 border-t border-slate-800/60">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <h2 class="text-3xl font-bold mb-3">Servicios y Contrataciones</h2>
+                <p class="text-slate-400">Elegí la modalidad con la que querés trabajar de forma directa vía WhatsApp.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Opción 1: Canal de Señales -->
+                <div class="glass-card p-7 rounded-3xl flex flex-col justify-between border-slate-800 hover:border-sky-500/40 transition">
+                    <div>
+                        <span class="text-xs font-mono-num uppercase tracking-wider text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">Comunidad VIP</span>
+                        <h3 class="text-xl font-bold mt-4 mb-2">Canal de Análisis & Señales</h3>
+                        <p class="text-slate-400 text-sm mb-6">Alertas en tiempo real, zonas de entrada y salida, y reportes diarios de mercado y criptoactivos.</p>
+                        <ul class="space-y-2.5 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><span class="text-sky-400">✓</span> Setups de alta asimetría</li>
+                            <li class="flex items-center gap-2"><span class="text-sky-400">✓</span> Actualización diaria de BTC y SP500</li>
+                            <li class="flex items-center gap-2"><span class="text-sky-400">✓</span> Comunidad activa de debate</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5492396601219?text=Hola!%20Quiero%20contratar%20el%20acceso%20al%20canal%20de%20se%C3%B1ales%20y%20an%C3%A1lisis." 
+                       target="_blank"
+                       class="block text-center w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold transition text-sm">
+                        Contratar Acceso a Señales
+                    </a>
+                </div>
+
+                <!-- Opción 2: Copy Trading (Destacada) -->
+                <div class="glass-card p-7 rounded-3xl flex flex-col justify-between border-emerald-500/40 relative shadow-2xl shadow-emerald-950/20">
+                    <div class="absolute -top-3 right-6 bg-emerald-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">MÁS POPULAR</div>
+                    <div>
+                        <span class="text-xs font-mono-num uppercase tracking-wider text-emerald-400 bg-emerald-400/10 px-3 py-1 rounded-full">Automatizado</span>
+                        <h3 class="text-xl font-bold mt-4 mb-2">Copy Trading Privado</h3>
+                        <p class="text-slate-400 text-sm mb-6">Vinculá tu cuenta de forma segura y replicá las operaciones de nuestra cartera de manera 100% automática.</p>
+                        <ul class="space-y-2.5 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Sin necesidad de mirar gráficos</li>
+                            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Ejecución en exchanges verificados</li>
+                            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Control total de tu capital</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5492396601219?text=Hola!%20Me%20interesa%20contratar%20el%20servicio%20de%20copy%20trading%20privado." 
+                       target="_blank"
+                       class="block text-center w-full py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold transition text-sm shadow-lg shadow-emerald-500/20">
+                        Contratar Copy Trading
+                    </a>
+                </div>
+
+                <!-- Opción 3: Asesoría 1 a 1 -->
+                <div class="glass-card p-7 rounded-3xl flex flex-col justify-between border-slate-800 hover:border-purple-500/40 transition">
+                    <div>
+                        <span class="text-xs font-mono-num uppercase tracking-wider text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">Personalizado</span>
+                        <h3 class="text-xl font-bold mt-4 mb-2">Asesoría 1 a 1</h3>
+                        <p class="text-slate-400 text-sm mb-6">Revisión profunda de tu portafolio actual, reestructuración de activos y estrategia adaptada a tu capital.</p>
+                        <ul class="space-y-2.5 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Llamada privada por videollamada</li>
+                            <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Auditoría de riesgos en cartera</li>
+                            <li class="flex items-center gap-2"><span class="text-purple-400">✓</span> Plan de acción a medida</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5492396601219?text=Hola!%20Quiero%20contratar%20una%20asesor%C3%ada%201%20a%201%20para%20revisar%20mi%20portafolio." 
+                       target="_blank"
+                       class="block text-center w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold transition text-sm">
+                        Contratar Asesoría
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 px-4 sm:px-6 border-t border-slate-800/60 bg-slate-950/40">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-10">Preguntas Frecuentes</h2>
+            <div class="space-y-4">
+                <details class="glass-card p-5 rounded-xl cursor-pointer group">
+                    <summary class="font-semibold text-white flex justify-between items-center list-none">
+                        <span>¿Cómo se realiza el pago de los servicios?</span>
+                        <span class="text-emerald-400 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p class="text-slate-400 text-sm mt-3 leading-relaxed">Los pagos se coordinan de forma directa por WhatsApp. Aceptamos transferencias locales (Argentina), criptomonedas (USDT/BTC) y pasarelas internacionales según el servicio.</p>
+                </details>
+
+                <details class="glass-card p-5 rounded-xl cursor-pointer group">
+                    <summary class="font-semibold text-white flex justify-between items-center list-none">
+                        <span>¿Necesito experiencia previa para el Copy Trading?</span>
+                        <span class="text-emerald-400 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p class="text-slate-400 text-sm mt-3 leading-relaxed">No. Te pasamos el instructivo paso a paso para que conectes tu cuenta en pocos minutos y el sistema empiece a replicar las operaciones automáticamente.</p>
+                </details>
+
+                <details class="glass-card p-5 rounded-xl cursor-pointer group">
+                    <summary class="font-semibold text-white flex justify-between items-center list-none">
+                        <span>¿Cómo contacto por propuestas de sponsors o marcas?</span>
+                        <span class="text-emerald-400 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p class="text-slate-400 text-sm mt-3 leading-relaxed">Podés enviarnos un correo electrónico directo a <span class="text-emerald-400 font-mono-num">gmailfalopa@gmail.com</span> con los detalles de tu propuesta comercial.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 px-4 border-t border-slate-800/80 text-center text-xs text-slate-500">
+        <p class="mb-2">© 2026 Macro Inversor — Todos los derechos reservados.</p>
+        <p>Aviso legal: El contenido y servicios ofrecidos tienen fines estrictamente educativos e informativos. Los mercados financieros conllevan riesgos de pérdida de capital.</p>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/5492396601219?text=Hola!%20Vengo%20de%20tu%20web%20Macro%20Inversor%20y%20quiero%20chatear." 
+       target="_blank" 
+       aria-label="Contactar por WhatsApp"
+       class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-400 text-slate-950 p-4 rounded-full shadow-2xl shadow-emerald-500/30 transition transform hover:scale-110 flex items-center justify-center">
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>
+    </a>
+
+</body>
+</html>
